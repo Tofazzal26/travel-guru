@@ -1,5 +1,6 @@
 import Navbar from "../Navbar/Navbar";
 import bannerImg from "../../assets/images/Rectangle 1.png";
+import { Outlet } from "react-router-dom";
 const Root = () => {
   return (
     <div
@@ -10,6 +11,7 @@ const Root = () => {
       }}
     >
       <Navbar />
+      <Outlet />
     </div>
   );
 };
